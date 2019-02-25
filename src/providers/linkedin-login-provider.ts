@@ -40,7 +40,7 @@ export class LinkedinLoginProvider extends BaseLoginProvider {
 
   onLinkedInLoad() {
     IN.Event.on(IN, 'systemReady', () => {
-      IN.User.refresh();
+      //IN.User.refresh();
     });
   }
 
